@@ -4,7 +4,7 @@ function M.get_colors()
   vim.cmd [[ source $HOME/.cache/wal/colors-wal.vim ]]
 
   return {
-    transparent = "NONE",
+    transparent = vim.g.background,
     background = vim.g.background,
     foreground = vim.g.foreground,
     cursor = vim.g.cursor,
